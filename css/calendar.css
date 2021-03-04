@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 300px;
+  min-height: 300px;
+
+  margin: 0px auto;
+}
+.container {
+  max-width: 700px;
+  /* width: calc(80vw); */
+  margin: 0px auto;
+  text-align: center;
+  padding: 5px 50px;
+  position: relative;
+}
+.p-rel {
+  position: relative;
+}
+.pd-x-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.title {
+  width: 100%;
+}
+.content {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+}
+.week {
+  display: table-row;
+  width: 100%;
+  height: calc(40vw / 8);
+  min-height: 60px;
+  max-height: 140px;
+}
+
+.day {
+  box-sizing: border-box;
+  background-color: aliceblue;
+  display: table-cell;
+  min-height: 60px;
+  width: 14%;
+  vertical-align: middle;
+}
+.day:hover {
+  background-color: yellow;
+}
+.head-row {
+  display: table-row;
+  width: 100%;
+  height: 30px;
+}
+.header-word {
+  box-sizing: border-box;
+  background-color: #005c9c;
+  display: table-cell;
+  width: 14%;
+  vertical-align: middle;
+  color: #faff00;
+}
+.t-header {
+  display: table;
+  width: 100%;
+}
+.t-body {
+  display: table;
+  width: 100%;
+}
+.today {
+  background-color: red;
+  color: bisque;
+}
+.warn-back-color {
+  background-color: #fefe4e;
+}
+.disable-back-color {
+  background-color: #dadada;
+  color: #b5b8bb;
+}
+.left-btn {
+  position: absolute;
+  left: 17px;
+  width: 30px;
+  height: 30px;
+  font-size: 16pt;
+  line-height: 25px;
+  background-color: #03a9f4;
+  border-radius: 5px;
+  color: #280cff;
+}
+.right-btn {
+  position: absolute;
+
+  right: 17px;
+  width: 30px;
+  height: 30px;
+  font-size: 16pt;
+  line-height: 25px;
+  background-color: #03a9f4;
+  border-radius: 5px;
+  color: #280cff;
+}
+.week-btn {
+  top: 50px;
+}
+.week-btn:hover {
+  top: 51px;
+}
+.month-btn {
+  top: 10px;
+}
+.month-btn.right-btn {
+  right: 0px;
+}
+.month-btn.left-btn {
+  left: 0px;
+}
+.tmp-month {
+  height: 45px;
+  line-height: 45px;
+  font-size: 16pt;
+}
+.input-area {
+  width: 80%;
+  border-color: #a4d3fd;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  border-radius: 16px;
+  right: 0px;
+}
+.input-area:focus {
+  outline: none;
+}
+.input-label {
+  left: 0px;
+}
